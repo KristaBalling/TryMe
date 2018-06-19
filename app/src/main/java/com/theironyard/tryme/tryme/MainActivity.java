@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 int randomNum = random.nextInt(colorArrayLength);
                 windowView.setBackgroundColor(colors[randomNum]);
 
-               // Log.d("TEST", "Tap");
+                Log.d("Random", String.valueOf(randomNum));
 
             }
         });
